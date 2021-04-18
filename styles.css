@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    padding: 60px 0px;
+    background: #FAFAFA;
+    color: #8B8B8B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+hr {
+    border-color: #407BFF;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto 30px auto;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0;
+}
+
+.paragraph {
+    width: 92%;
+    font-size: 16px;
+    margin: 0px auto 30px auto;
+}
+
+.happy-traveler-photo {
+    display: block;
+    max-width: 350px;
+    margin: 0px auto 40px auto;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 10px auto 0 auto;
+}
+
+.blue-button {
+    width: 195px;
+    background: #407BFF;
+}
+
+.grey-button {
+    width: 220px;
+    background: #8B8B8B;
+}
+
+.info-rectangle {
+    width: 92%;
+    display: flex;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin: 15px auto 0 auto;
+    box-shadow: 0px 4px 6px #407BFF1F;
+}
+
+.info-rectangle p {
+    text-align: left;
+    font-size: 13px;
+    margin: 30px 20px 20px 30px;
+}
+
+.icon {
+    width: 45px;
+    height: 40px;
+    margin: 20px 0px 20px 20px;
+}
+
+@media screen and (min-width: 640px) {
+    h2 {
+        margin-top: 80px;
+    }
+
+    .paragraph {
+        width: 550px;
+        margin: 15px auto 0px auto;
+    }
+
+    .happy-traveler-photo {
+        max-width: 400px;
+        margin: 0px auto 30px auto;
+    }
+
+    .buttons-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button {
+        margin: 0;
+    }
+
+    .blue-button {
+        margin-right: 20px;
+        flex: 0 0 auto;
+    }
+
+    .grey-button {
+        margin: 0;
+        flex: 0 0 auto;
+    }
+
+    .rectangles-container {
+        width: 95%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-rectangle {
+        margin: 0px;
+        flex: 0 1 230px;
+        flex-direction: column;
+    }
+
+    .info-rectangle p {
+        text-align: center;
+        margin: 0px 15px 40px 15px;
+    }
+
+    .middle-rectangle {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .icon {
+        margin: 40px auto 20px auto;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    h1, h2 {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    hr {
+        margin-left: 0;
+    }
+
+    .paragraph {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0;     
+    }
+
+    .happy-traveler-photo {
+        max-width: 425px;
+        margin: auto;
+    }
+
+    .rectangles-container {
+        width: 550px;
+        order: 1;
+    }
+
+    .photo-container {
+        width: 490px;
+    }
+
+    .buttons-container {
+        display: flex;
+        justify-content: left;
+    }
+
+    .first-section, .second-section, .third-section {
+        display: flex;
+        align-items: center;
+        max-width: 1040px;   
+        margin: auto;
+    }
+    
+    .first-section, .second-section {
+        margin-bottom: 80px;
+    }
+
+    .first-section .paragraph-part {
+        order: -1;
+        width: 490px;
+        margin-right: 60px;
+    }
+
+    .second-section .paragraph-part {
+        order: 2;
+        width: 430px;
+        margin-left: 60px;
+    }
+
+    .third-section .paragraph-part {
+        order: 1;
+        width: 430px;
+        margin-right: 60px;
+    }
+}
+    
+
+
+
+
+
