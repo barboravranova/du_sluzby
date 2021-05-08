@@ -59,12 +59,12 @@ a {
     margin: 10px auto 0 auto;
 }
 
-.blue-button {
+.blue {
     width: 195px;
     background: #407BFF;
 }
 
-.grey-button {
+.grey {
     width: 220px;
     background: #8B8B8B;
 }
@@ -115,12 +115,12 @@ a {
         margin: 0;
     }
 
-    .blue-button {
+    .blue {
         margin-right: 20px;
         flex: 0 0 auto;
     }
 
-    .grey-button {
+    .grey {
         margin: 0;
         flex: 0 0 auto;
     }
@@ -130,23 +130,18 @@ a {
         margin: auto;
         margin-top: 40px;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .info-rectangle {
         margin: 0px;
-        flex: 0 1 230px;
+        flex: 0 1 30%;
         flex-direction: column;
     }
 
     .info-rectangle p {
         text-align: center;
         margin: 0px 15px 40px 15px;
-    }
-
-    .middle-rectangle {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .icon {
@@ -178,6 +173,11 @@ a {
     .rectangles-container {
         width: 550px;
         order: 1;
+        justify-content: space-between;
+    }
+
+    .info-rectangle {
+        flex-basis: 170px;
     }
 
     .photo-container {
@@ -189,30 +189,30 @@ a {
         justify-content: left;
     }
 
-    .first-section, .second-section, .third-section {
+    section {
         display: flex;
         align-items: center;
         max-width: 1040px;   
         margin: auto;
     }
     
-    .first-section, .second-section {
+    .first, .second {
         margin-bottom: 80px;
     }
 
-    .first-section .paragraph-part {
+    .first .paragraph-part {
         order: -1;
         width: 490px;
         margin-right: 60px;
     }
 
-    .second-section .paragraph-part {
+    .second .paragraph-part {
         order: 2;
         width: 430px;
         margin-left: 60px;
     }
 
-    .third-section .paragraph-part {
+    .third .paragraph-part {
         order: 1;
         width: 430px;
         margin-right: 60px;
